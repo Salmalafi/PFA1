@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size:70px;
+    margin-left: 4%;
+    margin-bottom: 7%;   
+    text-shadow: rgb(55, 52, 52) -2px -2px ;
+    
+}
+.avocat-list .all{
+    text-align: center;
+    align-items: center;
+    background-color:rgb(224, 228, 228);
+    margin-top: 1.5px;
+    text-shadow: 5px ;
+    font-family: Georgia, serif;
+    border-radius: 4px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    margin-top: 5px;
+    
+}
+
+
+
+
+
+
+.avoc4{
+    background: url('img4.png') no-repeat;
+    width: 250px;
+    height: 250px;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+   
+   border-radius: 10px;
+   
+   background-size: cover;
+}
+.avoc1{
+    background: url('img1.png') no-repeat;
+    width: 250px;
+    height: 250px;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+    
+  
+   border-radius: 10px;
+   background-size: cover;
+   
+}
+.avoc2{
+    background: url('img2.png') no-repeat;
+    width: 250px;
+    height: 250px;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+   
+   border-radius: 10px;
+   background-size: cover;
+   
+}
+.avoc3{
+    background: url('img3.png') no-repeat;
+    width: 250px;
+    height: 250px;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+   
+   border-radius: 10px;
+   background-size: cover;
+   
+}
+.avoc5{
+    background: url('img5.png') no-repeat;
+    width: 250px;
+    height: 250px;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+   
+   border-radius: 10px;
+   background-size: cover;
+   
+}
+
+.avoc6{
+    background: url('img6.png') no-repeat;
+    width: 250px;
+    height: 250px;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+    
+   border-radius: 10px;
+   background-size: cover;
+   
+}
+.avocat-list .avoc4:hover {
+    transform: scale(1.06);
+    transition: 0.4s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.avocat-list .avoc1:hover {
+    transform: scale(1.06);
+    transition: 0.4s;
+}
+.avocat-list .avoc2:hover {
+    transform: scale(1.06);
+    transition: 0.4s;
+}
+.avocat-list .avoc3:hover {
+    transform: scale(1.06);
+    transition: 0.4s;
+}
+.avocat-list .avoc5:hover {
+    transform: scale(1.06);
+    transition: 0.4s;
+}
+.avocat-list .avoc6:hover {
+    transform: scale(1.06);
+    transition: 0.4s;
+}
+
+.avocat-list .avoc4{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.4s;
+    
+}
+.avocat-list .avoc1{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.4s;
+    
+}
+.avocat-list .avoc2{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.4s;
+    
+}
+.avocat-list .avoc3{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.4s;
+    
+}
+.avocat-list .avoc5{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.4s;
+    
+}
+.avocat-list .avoc6{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.4s;
+    
+}
+.avocats {
+    padding: 10px 10%;
+    width: 100%;
+}
+
+.avocat-list {
+    width: 100%;
+    display:grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,31.11%);
+    gap: 30px;}
+.a1 .avoc1{
+     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.a2 .avoc2{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.a3 .avoc3{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.a4 .avoc4{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.a5 .avoc5{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.a6 .avoc6{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}

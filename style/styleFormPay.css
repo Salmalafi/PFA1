@@ -1,0 +1,95 @@
+/* Style du formulaire */
+.main
+{
+    background-color:transparent;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgba(220, 198, 156, .6); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(73, 41, 2, 0.1);
+    /* backdrop-filter: blur(15px);
+    opacity: 1; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border:2px solid rgb(84, 49, 3,0.5);
+    border:2px solid rgba(205, 60, 31, 0.981);
+  }
+  
+  /* Style des champs de saisie */
+  
+  input[type="text"],input[type="month"],input[type="date"] ,input[type="email"], input[type="tel"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color:rgb(84, 49, 3);
+    
+  }
+input::placeholder{
+    color:rgb(84, 49, 3);
+}
+   input[type="text"]:focus,input[type="month"] :focus,input[type="date"] :focus,input[type="email"]:focus, input[type="tel"]:focus, input[type="number"]:focus, select:focus, textarea:focus{
+    box-shadow: 1px 2px  3px #8f6118f6 ;
+  outline: none;
+  border: solid 1px  #8f6118f6;
+  }
+  input, progress{accent-color:rgb(84, 49, 3);}
+  option{
+    height: 60px;
+    background-color: rgba(220, 198, 156, .6);
+  }
+  option:hover{
+    background-color: rgba(198, 141, 34, 0.6);
+  }
+  
+  /* Style des boutons */
+  button[type="submit"], input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+    margin-left: 35%;
+    width: 150px;
+  }
+  
+  button[type="submit"]:hover, input[type="submit"]:hover {
+    /* background-color: #3e8e41; */
+    background-color:rgba(220, 198, 156, .6);
+    border: solid 1px #8f6118f6;
+    color:rgb(84, 49, 3);
+    
+
+  }
+  button:hover {
+    background-color: white ;
+    border: solid 2px #8f6118f6;
+    color:#8f6118f6;
+    cursor: pointer;
+    
+    
+  }
+  
+  /* Style des messages d'erreur */
+  /* .error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style des messages de confirmation */
+  /* .success {
+    color: #4CAF50;
+    font-size: 14px;
+    margin-bottom: 10px;
+  } */
+  
